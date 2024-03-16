@@ -29,19 +29,19 @@ Todas essas informações não estão normalizadas, tendo as suas chaves candida
 # **CRIAÇÃO E IMPORTAÇÃO DAS TABELAS**
 Todas as colunas necessárias para a criação do banco foram retiradas do Kaggle, tendo o resultado:
 
-![alt text](image.png)
+![alt text](Imagens/image.png)
 
-![alt text](image-1.png)
+![alt text](Imagens/image-1.png)
 
-![alt text](image-2.png)
+![alt text](Imagens/image-2.png)
 
-![alt text](image-3.png)
+![alt text](Imagens/image-3.png)
 
 Para a importação dos dados, utilizou-se a ferramenta **Import/Export Data**, disponível no pgAdmin4. Como mostra a imagem:
 
-![alt text](import.png)
+![alt text](Imagens/import.png)
 
-Devido os problemas mencionados acima com a falta de diferentes valores e como foram preenchdos no csv, onde diferentes colunas, seus valores faltantes eram marcados com "", "None", "-". Para a importação dos arquivos ocorrer de forma correta foi necessário um pequeno tratamento de dados, já presente nos arquivos do repositório. Outros foram mantidos já que não resultavam em erros na importação dos arquivos, sendo tratados nas consultas.
+Devido os problemas mencionados acima com a falta de diferentes valores e como foram preenchdos no csv, onde seus valores faltantes eram preenchidos com "", "None", "-". Para a importação dos arquivos ocorrer de forma correta foi necessário um pequeno tratamento de dados, já presente nos arquivos do repositório. Outros foram mantidos já que não resultavam em erros na importação dos arquivos, sendo tratados nas consultas.
 
 Já que o foco do projeto não é consistência e sim as consultas, mantive as tabelas com estes erros de normalização e dados faltantes, resultando assim em tabelas sem chaves, já que não apresentavam valores únicos.
 
@@ -50,65 +50,65 @@ OBS: as colunas que contém minutos foram criadas como VARCHAR devido aos acrés
 # **CONSULTAS**
 - **Top 10 atletas que mais marcaram gols**:
 
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](Imagens/image-4.png)
+![alt text](Imagens/image-5.png)
 
 - **Atletas que mais marcaram gols em cada ano**:
 
-![alt text](image-6.png)
-![alt text](image-7.png)
+![alt text](Imagens/image-6.png)
+![alt text](Imagens/image-7.png)
 
 - **Clubes que mais ganharam jogos**:
 
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](Imagens/image-8.png)
+![alt text](Imagens/image-9.png)
 
 - **Jogadores que mais receberam cartões em cada ano**:
 
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](Imagens/image-10.png)
+![alt text](Imagens/image-11.png)
 
 - **Clubes com maior aproveitamento em seus chutes**:
 
-![alt text](image-12.png)
-![alt text](image-13.png)
+![alt text](Imagens/image-12.png)
+![alt text](Imagens/image-13.png)
 
 - **Formações com maior aproveitamento**:
 
-![alt text](image-14.png)
-![alt text](image-15.png)
+![alt text](Imagens/image-14.png)
+![alt text](Imagens/image-15.png)
 
 - **Técnicos com mais vitórias**:
 
-![alt text](image-16.png)
-![alt text](image-17.png)
+![alt text](Imagens/image-16.png)
+![alt text](Imagens/image-17.png)
 
 - **Top 10 atletas que mais marcaram gols contra**:
 
-![alt text](image-18.png)
-![alt text](image-19.png)
+![alt text](Imagens/image-18.png)
+![alt text](Imagens/image-19.png)
 
 - **Top 10 atletas que mais marcaram cobrando penaltys**:
 
-![alt text](image-20.png)
-![alt text](image-21.png)
+![alt text](Imagens/image-20.png)
+![alt text](Imagens/image-21.png)
 
-- **Percentual de jogos ganho em casa e fora**:
+- **Percentual de jogos ganhos em casa e fora**:
 
-![alt text](image-22.png)
-![alt text](image-23.png)
+![alt text](Imagens/image-22.png)
+![alt text](Imagens/image-23.png)
 
 - **Média de gols por cada tempo**:
 
-![alt text](image-24.png)
-![alt text](image-25.png)
+![alt text](Imagens/image-24.png)
+![alt text](Imagens/image-25.png)
 
-- **Contagem de gols por cada tempo (erxcluindo gols que aconteceram nos acréscimos)**:
+- **Contagem de gols por cada tempo (excluindo gols que aconteceram nos acréscimos)**:
 
-![alt text](image-26.png)
-![alt text](image-27.png)
+![alt text](Imagens/image-26.png)
+![alt text](Imagens/image-27.png)
 
-# **CONSIDERACOES FINAIS**
+# **CONSIDERAÇÕES FINAIS**
 
 Este projeto buscou aplicar os conhecimentos de SQL adquiridos no módulo de Banco de Dados I por meio da aplicação prática. O objetivo deste projeto era analisar dados de partidas de futebol e estatísticas associadas para extrair insights relevantes sobre o desempenho das equipes, jogadores e técnicos. As consultas realizadas forneceram informações valiosas sobre diferentes aspectos das partidas, incluindo resultados, estatísticas de jogadores e técnicos, e distribuição de gols ao longo do tempo.
 
